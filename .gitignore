@@ -1,0 +1,79 @@
+# =========================
+# General
+# =========================
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.history
+.svn/
+
+# =========================
+# IDE / Editor
+# =========================
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+
+# =========================
+# Flutter / Dart
+# =========================
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
+/coverage/
+**/doc/api/
+**/ios/Flutter/.last_build_id
+
+# Android build
+/android/app/debug
+/android/app/profile
+/android/app/release
+
+# iOS build
+ios/Pods/
+ios/.symlinks/
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+
+# =========================
+# Python / AI / ML
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+env/
+venv/
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# =========================
+# 🚨 IMPORTANT (Your Issue Fix)
+# =========================
+# Ignore model files
+*.onnx
+*.h5
+*.pt
+*.pth
+*.pkl
+
+# Ignore datasets
+dataset/
+data/
+datasets/
+assets/models/
+
+# =========================
+# Misc
+# =========================
+*.lock
